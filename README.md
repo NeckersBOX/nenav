@@ -79,3 +79,15 @@ not have the / at the end, and in the same way, in the javascript file, it must
 be omitted.
 
 **Note:** A demo can be found in the [projects webpages](http://www.neckersbox.eu/en/nenav)
+
+## Themes
+
+Inside the Nenav package there are four themes, two basic ( _light_ and _dark_ ) 
+and two **Bootstrap-like**. This is important to clarify because these two themes 
+( _bootstrap-dark_ and _bootstrap-light_ ) not using really bootstrap but use a 
+style like that.
+
+![theme light](http://www.neckersbox.eu/share/assets/nenav-light.png)
+![theme dark](http://www.neckersbox.eu/share/assets/nenav-dark.png)
+![theme bootstrap-light](http://www.neckersbox.eu/share/assets/nenav-bootstrap-light.png)
+![theme bootstrap-dark](http://www.neckersbox.eu/share/assets/nenav-bootstrap-dark.png)
