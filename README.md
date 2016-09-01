@@ -78,4 +78,4 @@ this values inside a variable in the PHP file. This path, in the PHP file, must
 not have the / at the end, and in the same way, in the javascript file, it must 
 be omitted.
 
-**Note:** A demo can be found in the [http://www.neckersbox.eu/en/nenav](projects webpages)
+**Note:** A demo can be found in the [projects webpages](http://www.neckersbox.eu/en/nenav)
