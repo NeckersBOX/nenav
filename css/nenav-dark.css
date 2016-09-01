@@ -1,0 +1,217 @@
+.nenav-main {
+  background-color: #666;
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  display: none;
+}
+
+.nenav-path {
+  background-color: #666;
+  overflow: auto;
+  white-space: nowrap;
+}
+.nenav-path > button {
+  background: linear-gradient(#737373, #434343);
+  border-color: transparent #777 transparent #555;
+  padding: 10px;
+  margin: 0px;
+  border-style: solid;
+  border-width: 0px 1px;
+  border-radius: 0px;
+  cursor: pointer;
+  font-family: "Lato", "Arial", serif;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.nenav-path > button:hover {
+  background: linear-gradient(#303030, #606060);
+}
+.nenav-path > button:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.nenav-path > button:last-of-type {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.nenav-view {
+  background-color: #555;
+  margin: 10px 0px;
+  border-radius: 3px;
+}
+.nenav-view table {
+  width: 100%;
+  font-family: "Lato", "Arial", serif;
+  color: #fff;
+}
+
+.nenav-head {
+  background-color: #333;
+  border-spacing: 0px;
+}
+.nenav-head td {
+  padding: 0px;
+}
+
+.nenav-foot {
+  background-color: #333;
+  border-spacing: 0px;
+}
+.nenav-foot td {
+  padding: 5px 10px;
+}
+
+.nenav-btn {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+  font-family: Lato, "Arial", serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-color: #555;
+  border-style: solid;
+  border-width: 0px 1px 2px 0px;
+}
+.nenav-btn:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+.nenav-btn-current {
+  background-color: #555;
+}
+
+.nenav-head td:last-of-type button {
+  border-width: 0px 0px 2px;
+}
+
+.nenav-table tr:nth-child(odd) {
+  background-color: #555;
+}
+.nenav-table tr:nth-child(even) {
+  background-color: #444;
+}
+.nenav-table tr:hover {
+  background-color: #777;
+  cursor: pointer;
+}
+.nenav-table td {
+  padding: 4px
+}
+.nenav-table td:nth-child(1) {
+  white-space: nowrap;
+}
+.nenav-table td:nth-child(2) {
+  white-space: nowrap;
+  text-align: right;
+}
+
+.nenav-table td:nth-child(3) {
+  text-align: center;
+}
+
+.nenav-viewlist, .nenav-file>div:nth-child(2) {
+  max-height: 405px;
+  overflow: auto;
+}
+
+.nenav-file {
+  margin: 10px 0px;
+  box-shadow: 0px 0px 3px #333;
+  border-radius: 5px;
+  display: none; 
+}
+.nenav-file>div:nth-child(1) {
+  background-color: #555;
+  font-family: Lato, "Helvetica Neue", serif;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+}
+.nenav-file>div:nth-child(2) {
+  border: 1px solid #333;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+.nenav-file pre {
+  border-width: 0px;
+  padding: 0;
+  margin: 0;
+  padding-left: 15px;
+}
+.nenav-file pre li {
+  list-style-type: decimal;
+}
+
+.nenav-arrow-up, .nenav-arrow-down {
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border: 0px solid transparent;
+  border-width: 0px 5px;
+  display: none;
+}
+
+.nenav-arrow-up {
+  border-top-color: #fff;
+  border-top-width: 5px;
+}
+
+.nenav-arrow-down {
+  border-bottom-color: #fff;
+  border-bottom-width: 5px;
+}
+
+.nenav-load {
+  border-width: 3px;
+  border-color: transparent #ccc;
+  width: 48px;
+  height: 48px;
+  border-style: solid;
+  border-radius: 50%;
+  animation: loading 3s linear infinite;
+  display: inline-block;
+  margin: 10px 0px;
+  margin-left: calc((100vw - 100px)/2);
+}
+.nenav-load > div {
+  border-width: 4px;
+  border-color: #999 transparent;
+  width: 24px;
+  height: 24px;
+  border-style: solid;
+  border-radius: 50%;
+  margin: 8px;
+  animation: loading 3s linear infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.nenav-icon {
+ display: inline-block;
+ width: 16px;
+ height: 16px;
+ background-image: url('../assets/nenav-icon.png');  
+ margin: 0px 4px;
+ vertical-align: middle;
+}
+
+.nenav-icon-file {
+ background-position: 0px 32px;
+}
+
+.nenav-icon-folder {
+ background-position: 16px 32px;
+}

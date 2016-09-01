@@ -1,0 +1,38 @@
+<html>
+<head>
+<!-- Required Library -->
+<script type="text/javascript" src="required/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="required/google-code-prettify/prettify.js"></script>
+
+<link rel="stylesheet" type="text/css" href="required/google-code-prettify/prettify.css">
+<link rel="stylesheet" type="text/css" href="css/nenav-bootstrap-light.css">
+<!--                  -->
+
+<!-- Nenav Script -->
+<script type="text/javascript" src="js/nenav.js"></script>
+<!--              -->
+
+<title>NENAV</title>
+</head>
+<body>
+
+<!-- Nenav Do Nenav -->
+ <div id="nenav"></div>
+ <script>
+  /* nenav_init (ref_id, settings)
+   *
+   * ref_id: element where nenav append its content
+   * settings: an object like: 
+   *  {
+   *    init_path: "nenav",            // required
+   *    curr_pos: "subpath/of/nenav",  // if the start view is different from root, default: null
+   *    sort: size-reverse,            // initial sort type, default: name, value: name, size, time,
+   *                                   // name-reverse, size-reverse, time-reverse
+   *    php_path: "php"                // location of nenav.php, default: php
+   *    ui_path: "html"                // location of nenav-ui.html, default: html
+   */
+  nenav_init ('#nenav', { init_path: 'nenav' });
+ </script>
+<!--                -->
+</body>
+</html>
